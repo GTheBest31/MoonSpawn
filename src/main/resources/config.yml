@@ -1,0 +1,53 @@
+settings:
+  language: tr
+  small-caps: true
+  metrics: true
+  update-actionbar-every-ticks: 20
+
+spawn:
+  enabled: false
+  world: ''
+  x: 0.0
+  y: 64.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+
+teleport:
+  delay-seconds: 3
+  cooldown-seconds: 10
+  cancel-on-move: true
+  cancel-on-damage: true
+  safe-teleport: true
+  center-block: false
+
+join:
+  teleport-to-spawn: false
+  first-join-only: false
+
+respawn:
+  teleport-to-spawn: true
+
+effects:
+  sound:
+    enabled: true
+    name: ENTITY_ENDERMAN_TELEPORT
+    volume: 1.0
+    pitch: 1.2
+  particle:
+    enabled: true
+    name: PORTAL
+    count: 40
+    offset: 0.4
+
+messages:
+  prefix: '<#7CFFCB>ᴍᴏᴏɴѕᴘᴀᴡɴ <gray>» '
+  title:
+    enabled: true
+    fade-in: 10
+    stay: 35
+    fade-out: 15
+  subtitle:
+    enabled: true
+  actionbar:
+    enabled: true

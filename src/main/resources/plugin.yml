@@ -1,0 +1,29 @@
+name: MoonSpawn
+version: '${project.version}'
+main: dev.gthebest.MoonSpawn
+api-version: '1.21'
+author: gthebest
+description: Advanced multilingual spawn management plugin.
+commands:
+  spawn:
+    description: Teleport to the configured spawn.
+    usage: /spawn
+    permission: moonspawn.spawn
+  setspawn:
+    description: Save the spawn location.
+    usage: /setspawn
+    permission: moonspawn.setspawn
+  moonspawn:
+    description: MoonSpawn administration command.
+    usage: /moonspawn <reload|info|lang>
+    aliases: [mspawn, ms]
+    permission: moonspawn.admin
+permissions:
+  moonspawn.spawn:
+    default: true
+  moonspawn.setspawn:
+    default: op
+  moonspawn.admin:
+    default: op
+  moonspawn.bypass.cooldown:
+    default: op

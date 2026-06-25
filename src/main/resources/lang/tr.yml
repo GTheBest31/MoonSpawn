@@ -1,0 +1,28 @@
+prefix: '<#7CFFCB>MoonSpawn <gray>» '
+no-permission: '<red>Bunu yapmak için yetkin yok.'
+only-player: '<red>Bu komut sadece oyuncular tarafından kullanılabilir.'
+reload: '<green>Yapılandırma ve dil dosyaları yeniden yüklendi.'
+spawn-set: '<green>Spawn noktası bulunduğun konuma kaydedildi.'
+spawn-not-set: '<red>Spawn noktası henüz ayarlanmamış.'
+spawn-world-missing: '<red>Spawn dünyası yüklü değil: <white>{world}'
+teleport-start: '<gray>Işınlanma <#7CFFCB>{seconds}s <gray>içinde başlayacak. Hareket etme.'
+teleport-countdown: '<#7CFFCB>{seconds}s <gray>sonra spawn noktasına ışınlanacaksın.'
+teleport-success: '<green>Spawn noktasına ışınlandın.'
+teleport-cancel-move: '<red>Hareket ettiğin için ışınlanma iptal edildi.'
+teleport-cancel-damage: '<red>Hasar aldığın için ışınlanma iptal edildi.'
+teleport-cancel-other: '<red>Işınlanma iptal edildi.'
+cooldown: '<red>Tekrar kullanmak için <white>{seconds}s <red>bekle.'
+already-teleporting: '<yellow>Zaten spawn noktasına ışınlanıyorsun.'
+language-set: '<green>Dil <white>{language} <green>olarak ayarlandı.'
+language-unknown: '<red>Bilinmeyen dil. Kullanılabilir: <white>{languages}'
+info:
+  - '<#7CFFCB>MoonSpawn <gray>v{version}'
+  - '<gray>Dil: <white>{language}'
+  - '<gray>Spawn: <white>{spawn}'
+title:
+  teleport-success: '<#7CFFCB>Spawn'
+subtitle:
+  teleport-success: '<gray>Güvenli noktaya ışınlandın'
+actionbar:
+  countdown: '<#7CFFCB>{seconds}s <gray>sonra ışınlanacaksın'
+  success: '<green>Işınlanma tamamlandı'

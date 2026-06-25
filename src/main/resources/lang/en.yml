@@ -1,0 +1,28 @@
+prefix: '<#7CFFCB>MoonSpawn <gray>» '
+no-permission: '<red>You do not have permission to do that.'
+only-player: '<red>This command can only be used by players.'
+reload: '<green>Configuration and language files reloaded.'
+spawn-set: '<green>Spawn point saved at your current location.'
+spawn-not-set: '<red>The spawn point has not been set yet.'
+spawn-world-missing: '<red>The spawn world is not loaded: <white>{world}'
+teleport-start: '<gray>Teleport starts in <#7CFFCB>{seconds}s<gray>. Do not move.'
+teleport-countdown: '<#7CFFCB>{seconds}s <gray>until teleporting to spawn.'
+teleport-success: '<green>You teleported to spawn.'
+teleport-cancel-move: '<red>Teleport cancelled because you moved.'
+teleport-cancel-damage: '<red>Teleport cancelled because you took damage.'
+teleport-cancel-other: '<red>Teleport cancelled.'
+cooldown: '<red>Wait <white>{seconds}s <red>before using this again.'
+already-teleporting: '<yellow>You are already teleporting to spawn.'
+language-set: '<green>Language set to <white>{language}<green>.'
+language-unknown: '<red>Unknown language. Available: <white>{languages}'
+info:
+  - '<#7CFFCB>MoonSpawn <gray>v{version}'
+  - '<gray>Language: <white>{language}'
+  - '<gray>Spawn: <white>{spawn}'
+title:
+  teleport-success: '<#7CFFCB>Spawn'
+subtitle:
+  teleport-success: '<gray>You arrived safely'
+actionbar:
+  countdown: '<#7CFFCB>{seconds}s <gray>until teleport'
+  success: '<green>Teleport complete'

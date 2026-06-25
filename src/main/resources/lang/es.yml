@@ -1,0 +1,28 @@
+prefix: '<#7CFFCB>MoonSpawn <gray>» '
+no-permission: '<red>No tienes permiso para hacer eso.'
+only-player: '<red>Este comando solo puede ser usado por jugadores.'
+reload: '<green>Configuracion e idiomas recargados.'
+spawn-set: '<green>El spawn se guardo en tu ubicacion actual.'
+spawn-not-set: '<red>El spawn aun no esta configurado.'
+spawn-world-missing: '<red>El mundo del spawn no esta cargado: <white>{world}'
+teleport-start: '<gray>El teletransporte inicia en <#7CFFCB>{seconds}s<gray>. No te muevas.'
+teleport-countdown: '<#7CFFCB>{seconds}s <gray>para teletransportarte al spawn.'
+teleport-success: '<green>Te teletransportaste al spawn.'
+teleport-cancel-move: '<red>Teletransporte cancelado porque te moviste.'
+teleport-cancel-damage: '<red>Teletransporte cancelado porque recibiste dano.'
+teleport-cancel-other: '<red>Teletransporte cancelado.'
+cooldown: '<red>Espera <white>{seconds}s <red>antes de usar esto otra vez.'
+already-teleporting: '<yellow>Ya te estas teletransportando al spawn.'
+language-set: '<green>Idioma cambiado a <white>{language}<green>.'
+language-unknown: '<red>Idioma desconocido. Disponibles: <white>{languages}'
+info:
+  - '<#7CFFCB>MoonSpawn <gray>v{version}'
+  - '<gray>Idioma: <white>{language}'
+  - '<gray>Spawn: <white>{spawn}'
+title:
+  teleport-success: '<#7CFFCB>Spawn'
+subtitle:
+  teleport-success: '<gray>Llegaste con seguridad'
+actionbar:
+  countdown: '<#7CFFCB>{seconds}s <gray>para teletransportarte'
+  success: '<green>Teletransporte completado'
